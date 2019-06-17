@@ -15,6 +15,8 @@ public:
 
 protected:
   virtual ADReal computeQpResidual() override;
+
   const Real & _kappa;
+
   usingKernelMembers;
 };
